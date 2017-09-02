@@ -1,14 +1,15 @@
 const students = require('./students.json')
+const studentId = process.argv[2]
 
-let studentId = process.argv[2]
-let studentName = 'Student not found'
-
-for (var i = 0; i < students.length; i++) {
-    var student = students[i];
-    if(student.id == studentId) {
-        studentName = student.name
-        break
+function findStudentById (studentId) {
+    //console.log("Student ID: " + studentId) //1x
+    return function callback(student, index) {
+        //console.log('received id: ' + student.id) //nx
+        return studentId == student.id
     }
 }
 
-console.log(studentName)
+const student = students.find(findStudentById(studentId))
+let output = student ? student.name : 'Student not found'
+
+console.log(output)
