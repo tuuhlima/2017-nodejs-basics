@@ -1,10 +1,8 @@
 const students = require('./students.json')
 const studentId = process.argv[2]
 
-function findStudentById (studentId) {
-    //console.log("Student ID: " + studentId) //1x
-    return function callback(student, index) {
-        //console.log('received id: ' + student.id) //nx
+function findStudentById(studentId) {
+    return function callback(student) {
         return studentId == student.id
     }
 }
