@@ -1,10 +1,9 @@
 const students = require('./students.json')
-const studentName = process.argv[2]
+const studentName = process.argv[2] || ''
 
 function studentByName(name) {
     return function callback(student) {
-        const regexp = new RegExp(name, 'i')
-        return regexp.test(student.name)
+        return student.name.toLowerCase().includes(name.toLowerCase())
     }
 }
 
