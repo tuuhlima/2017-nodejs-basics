@@ -1,17 +1,8 @@
 const students = require('./students.json')
-const studentName = process.argv[2] || ''
+const { studentByName, getStudentName, printName } = require('./my-module')
 
-function studentByName(name) {
-    return function callback(student) {
-        return student.name.toLowerCase().includes(name.toLowerCase())
-    }
-}
-
-function printName(student) {
-    console.log(student.name)
-}
-
-const studentsFound = students.filter(studentByName(studentName))
+const name = getStudentName()
+const studentsFound = students.filter(studentByName(name))
 
 if(studentsFound.length > 0) {
     studentsFound.forEach(printName)
