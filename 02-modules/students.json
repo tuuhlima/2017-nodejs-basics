@@ -1,70 +1,87 @@
 [
     {
         "id": 13,
-        "name": "Ariane Presciliana Moreira"
+        "name": "Ariane Presciliana Moreira",
+        "genre": "Female"
     },
     {
         "id": 7,
-        "name": "Brayan Vinícius dos Santos"
+        "name": "Brayan Vinícius dos Santos",
+        "genre": "Male"
     },
     {
         "id": 4,
-        "name": "Brunna de Souza Almeida"
+        "name": "Brunna de Souza Almeida",
+        "genre": "Female"
     },
     {
         "id": 12,
-        "name": "Bruno Almeida Cerqueira"
+        "name": "Bruno Almeida Cerqueira",
+        "genre": "Male"
     },
     {
         "id": 1,
-        "name": "Cristiane de Souza Ferreira"
+        "name": "Cristiane de Souza Ferreira",
+        "genre": "Female"
     },
     {
         "id": 9,
-        "name": "Daniel Julio Bernardo"
+        "name": "Daniel Julio Bernardo",
+        "genre": "Male"
     },
     {
         "id": 8,
-        "name": "Daniel Simões Lopes"
+        "name": "Daniel Simões Lopes",
+        "genre": "Male"
     },
     {
         "id": 15,
-        "name": "Edson Gabriel Pereira Soares"
+        "name": "Edson Gabriel Pereira Soares",
+        "genre": "Male"
     },
     {
         "id": 17,
-        "name": "Jalison Diego de Paiva"
+        "name": "Jalison Diego de Paiva",
+        "genre": "Male"
     },
     {
         "id": 2,
-        "name": "Nelson Ferreira Leal Junior"
+        "name": "Nelson Ferreira Leal Junior",
+        "genre": "Male"
     },
     {
         "id": 5,
-        "name": "Nilton Cezar Moreira Júnior"
+        "name": "Nilton Cezar Moreira Júnior",
+        "genre": "Male"
     },
     {
         "id": 6,
-        "name": "Pedro Henrique Monteiro"
+        "name": "Pedro Henrique Monteiro",
+        "genre": "Male"
     },
     {
         "id": 14,
-        "name": "Samuel Barreiro Lemes"
+        "name": "Samuel Barreiro Lemes",
+        "genre": "Male"
     },
     {
         "id": 10,
-        "name": "Samuel Felipe da Conceição"
+        "name": "Samuel Felipe da Conceição",
+        "genre": "Male"
     },
     {
         "id": 3,
-        "name": "Túlio Lima Silva"
+        "name": "Túlio Lima Silva",
+        "genre": "Male"
     },
     {
         "id": 16,
-        "name": "Wellington da Cruz Caldeira"
+        "name": "Wellington da Cruz Caldeira",
+        "genre": "Male"
     },
     {
         "id": 11,
-        "name": "Wellington Henrique da Silva"
+        "name": "Wellington Henrique da Silva",
+        "genre": "Male"
     }
 ]
